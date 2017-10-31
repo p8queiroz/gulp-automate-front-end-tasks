@@ -5,13 +5,18 @@ var gulp = require('gulp')
 
 // removida a dependência de build-img
 gulp.task('copy', ['clean'], function() {
-    return gulp.src('src/**/*')
+    return gulp.src('src/img/**/*')
         .pipe(gulp.dest('dist'));
 });
 
-gulp.task('clean', function() {
+gulp.task('clean', ['savebkp'], function() {
     return gulp.src('dist')
         .pipe(clean());
+});
+
+gulp.task('savebkp', function() {
+    return gulp.src('dist/**/*')
+        .pipe(gulp.dest('bckimg/img'));
 });
 
 // adicionando a dependência copy
