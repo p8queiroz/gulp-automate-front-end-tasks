@@ -12,6 +12,7 @@
 	npm run gulp taskName
 
 *Plugin gulp-clean
+    npm install gulp-clean@0.3.1 --save-dev
 
 *Plugin gulp-concat
     npm install gulp-concat@2.6.0 --save-dev
@@ -28,6 +29,8 @@
 *Plugin gulp-cssmin
     npm install gulp-cssmin@0.1.7 --save-dev
 
+*Plugin browser-sync
+    npm install browser-sync@2.9.8 --save-dev
 
 
 
