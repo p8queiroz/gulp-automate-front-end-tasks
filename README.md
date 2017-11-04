@@ -11,6 +11,9 @@
 *To run a task:
 	npm run gulp taskName
 
+*To run default npm task:
+    npm run gulp
+
 *Plugin gulp-clean
     npm install gulp-clean@0.3.1 --save-dev
 
@@ -32,6 +35,17 @@
 *Plugin browser-sync
     npm install browser-sync@2.9.8 --save-dev
 
+*Plugin gulp-jshint
+    npm install gulp-jshint@1.11.2 --save-dev
+
+*Plugin jshint-stylish
+    npm install jshint-stylish@2.0.1 --save-dev    
+
+*Plugin gulp-csslint
+    npm install gulp-csslint@0.2.0 --save-dev
+
+*Plugin 
+    npm install gulp-autoprefixer@3.0.2 --save-dev
 
 
 
