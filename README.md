@@ -44,8 +44,11 @@
 *Plugin gulp-csslint
     npm install gulp-csslint@0.2.0 --save-dev
 
-*Plugin 
+*Plugin gulp-autoprefixer
     npm install gulp-autoprefixer@3.0.2 --save-dev
+
+*Plugin gulp-less
+    npm install gulp-less@3.0.3 --save-dev
 
 
 
