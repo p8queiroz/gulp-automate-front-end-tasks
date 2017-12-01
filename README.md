@@ -13,6 +13,7 @@
 
 *To run default npm task:
     npm run gulp
+	
 
 *Plugin gulp-imagemin
     npm install gulp-imagemin@2.3.0 --save-dev
