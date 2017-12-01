@@ -14,6 +14,9 @@
 *To run default npm task:
     npm run gulp
 
+*Plugin gulp-imagemin
+    npm install gulp-imagemin@2.3.0 --save-dev
+	
 *Plugin gulp-clean
     npm install gulp-clean@0.3.1 --save-dev
 
